@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-'''
+
 class Humano():
     #Constructor
     def __init__(self, nombre, edad, genero, calificacion):
@@ -39,4 +39,3 @@ calificacion=int(input("Calificación: "))
 h1=Humano(nombre, edad, genero, calificacion)
 #h1.__miMetodoPrivado() #no se puede acceder porque es un método privado
 print(h1.getNombre())
-'''
